@@ -53,9 +53,9 @@ Do the following in response:
    - **LOCAL-BUILD.md** (Section 18) - Local production testing patterns
    - **PROGRESS.md** - Session history tracking (if applicable)
 3. **Create CLAUDE.md** - Project-specific instructions derived from this document, adapted to reference implementations, and make references to the /Documetnation/*.md files as needed so you aren't being redundant.
-5. **Now interview the user** - Ask what they want to build or if they have a document they'd like to point you to with an overview. You could also suggest that they run the `project-kickoff` script (`node scripts/project-kickoff.js`) which will interactively create a package.json with essential project info. Ask questions until you have more context on their goals so you can apply the patterns of this document to them.
-6. **Clarify stack choices** - Specify what stack this approach suggests for auth, database, styling (e.g., tailwind), etc., and get an ok from the user. Make adjustments if they want something different.
-7. **Revise Claude.md and Build** - Make adjustments to the Documentation/*.md files and Claude.md - then scaffold the project following these patterns based on what you know.
+4. **Now interview the user** - Ask what they want to build or if they have a document they'd like to point you to with an overview. You could also suggest that they run the `project-kickoff` script (`node scripts/project-kickoff.js`) which will interactively create a package.json with essential project info. Ask questions until you have more context on their goals so you can apply the patterns of this document to them.
+5. **Clarify stack choices** - Specify what stack this approach suggests for auth, database, styling (e.g., tailwind), etc., and get an ok from the user. Make adjustments if they want something different.
+6. **Revise Claude.md and Build** - Make adjustments to the Documentation/*.md files and Claude.md - then scaffold the project following these patterns based on what you know.
 
 ### Here are some helpful todos to make sure you cover as you scaffold the project
 
